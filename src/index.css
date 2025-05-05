@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #292637;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+.search-box {
+    width: 38vw;
+    height: 7vh;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.95);
+    background-color: #403c53;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    letter-spacing: 0.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding-inline: 8px;
+    transition: 250ms ease-out;
+}
+
+.search-box:hover {
+    transform: scale(1.02);
+    background-color: #48445c; 
+}
+
+.search-input {
+    border:0;
+    padding:0;
+    outline: none;
+    background-color: transparent;
+    color:rgba(255, 255, 255, 0.837);
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    width:100%;
+}
+
+.search-icon {
+    opacity: 60%;
+}
+
+@media (max-width:1024px) {
+    .search-box {
+        width: 60vw;
+    }
+}
+
+@media (max-width:740px) {
+    .search-box {
+        width: 80vw;
+        height:8vh
+    }
+}
+
+@media (max-height:600px) {
+    .search-box {
+        height: 40px;
+    }
+}

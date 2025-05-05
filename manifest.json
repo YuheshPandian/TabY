@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "TabY",
+    "description": "Turns the distraction-filled new tab into a minimal, no-fuss page with just a Google search bar.",
+    "short_description":"Neat browsing experience",
+    "version": "1.0",
+    "icons": {
+      "64": "src/icon.png"
+    },
+    "chrome_url_overrides": {
+      "newtab": "src/index.html"
+    }
+    
+}
+  
