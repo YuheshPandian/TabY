@@ -80,7 +80,7 @@ Found a bug? Want to add a feature? PRs welcome!
 
 ## 📄 License
 
-MIT © [YourName](https://github.com/yourusername)
+MIT © [YuheshPandian](https://github.com/Yuheshpandian)
 
 ---
 
