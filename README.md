@@ -63,7 +63,7 @@ Sometimes, all you need is… **nothing**.
 
 ## 🌍 Browser Support
 
-- ✅ Chrome  
+- ✅ Edge  
 - 🔜 Firefox (coming soon)
 
 ---
