@@ -44,10 +44,12 @@ TabY is made for tinkerers too.
 
 ```
 TabY/
-├── icons/              # Extension icons
-├── index.html          # Main new tab page
-├── manifest.json       # Chrome extension config
-└── styles.css          # Minimal styling
+├── src/              # Extension Source
+   ├── index.html          # Main new tab page
+   └── styles.css          # Minimal styling
+   └── icon.png          # Extension icon
+├── manifest.json       # Extension config
+
 ```
 
 ---
